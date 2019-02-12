@@ -6,7 +6,7 @@ section
 </template>
 
 <script lang="ts">
-import { Prop, Vue, Component } from 'nuxt-property-decorator'
+import { Prop, Vue, Component } from 'vue-property-decorator'
 import VAuthAlert from '~/components/auth/alert.vue'
 
 @Component({

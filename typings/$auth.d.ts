@@ -1,4 +1,4 @@
-import { User } from '~/assets/models'
+// import { User } from '~/assets/models'
 import { AppContext } from './context'
 import { KeysObject } from './typings'
 
@@ -34,7 +34,8 @@ export interface $Auth {
 
   strategy: KeysObject // AuthStrategy
 
-  user: User | null
+  user?: any
+  // user: User | null
 
   reset: () => void
 
@@ -80,6 +81,7 @@ interface AuthState {
 
   strategy: string
 
-  user: User | null
+  user?: any
+  // user: User | null
 
 }
